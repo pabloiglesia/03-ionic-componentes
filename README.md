@@ -1,6 +1,8 @@
 # Sección 4: Componentes Ionic
 
-Este proyecto ha sido creado utilizando el comando `ionic start componentes blank` de ionic CLI.
+Este proyecto ha sido creado inicialmente utilizando el comando `ionic start componentes blank` de ionic CLI.
+
+Posteriormente en cada commit se muestra la explicación de lo que se va haciendo
 
 ## Contenido:
 
