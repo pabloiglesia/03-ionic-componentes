@@ -4,6 +4,7 @@ interface Componente {
   icon: string
   name: string
   redirectTo: string
+  color?: string
 }
 
 @Component({
@@ -43,7 +44,14 @@ export class InicioPage implements OnInit {
       icon: 'checkmark-circle-outline',
       name: 'Checks',
       redirectTo: '/check'
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time',
+      color: "warning"
     }
+
 
   ]
 
