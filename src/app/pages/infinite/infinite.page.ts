@@ -21,6 +21,7 @@ export class InfinitePage implements OnInit {
       if (this.data.length > 50) {
         this.ionInfiniteScroll.complete()
         this.ionInfiniteScroll.disabled = true
+        return
       } else{
         const nuevoArray:any = Array(20)
         this.data.push(...nuevoArray)
