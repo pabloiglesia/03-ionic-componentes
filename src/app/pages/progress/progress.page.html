@@ -1,0 +1,22 @@
+<app-header titulo="Progress - Range"></app-header>
+
+<ion-content class="ion-padding">
+  <ion-progress-bar type="deteminate" [value]="progress" [buffer]="buffer" color="primary"></ion-progress-bar>
+  <ion-list>
+    <ion-item>
+      <ion-range
+        min="0" max="1"
+        step="0,01"
+        color="primary"
+        dualKnobs="true"
+        (ionChange)="rangeChange( $event )"
+        [value]="{ lower: progress, upper: buffer }"
+        >
+        <!-- [(ngModel)]="porcentaje" -->
+        <ion-icon slot="start" name="snow-outline"></ion-icon>
+        <ion-icon slot="end" name="sunny-outline"></ion-icon>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

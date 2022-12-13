@@ -79,5 +79,10 @@
     "icon": "phone-portrait-outline",
     "name": "Popover",
     "redirectTo": "/popover"
+  },
+  {
+    "icon": "code-working-outline",
+    "name": "Progress - Range",
+    "redirectTo": "/progress"
   }
  ]
