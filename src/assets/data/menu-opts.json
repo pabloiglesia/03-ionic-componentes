@@ -105,5 +105,10 @@
     "name": "Slides",
     "redirectTo": "/slides",
     "color": "warning"
+  },
+  {
+    "icon": "cog-outline",
+    "name": "Tabs",
+    "redirectTo": "/tabs"
   }
  ]
