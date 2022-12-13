@@ -110,5 +110,10 @@
     "icon": "cog-outline",
     "name": "Tabs",
     "redirectTo": "/tabs"
+  },
+  {
+    "icon": "priceTag-outline",
+    "name": "Toasts",
+    "redirectTo": "/toasts"
   }
  ]
