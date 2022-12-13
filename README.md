@@ -4,6 +4,8 @@ Este proyecto ha sido creado inicialmente utilizando el comando `ionic start com
 
 Posteriormente en cada commit se muestra la explicación de lo que se va haciendo
 
+Para instalar la aplicacion se debe de ejecutar el comando `npm install`
+
 ## Contenido:
 
 Esta aplicacion tiene como objetivo utilizar la mayoría de los componentes de ionic, se puede usar como un glosario de cada componente. En todos los componentes, no sólo se ve la configuración básica, sino que tienen ejemplos y los se personalizan de alguna manera.
