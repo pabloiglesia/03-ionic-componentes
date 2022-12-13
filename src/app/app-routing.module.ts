@@ -80,6 +80,10 @@ const routes: Routes = [
     path: 'progress',
     loadChildren: () => import('./pages/progress/progress.module').then( m => m.ProgressPageModule)
   },
+  {
+    path: 'refresher',
+    loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
   // {
   //   path: 'modal-info',
   //   loadChildren: () => import('./pages/modal-info/modal-info.module').then( m => m.ModalInfoPageModule)
